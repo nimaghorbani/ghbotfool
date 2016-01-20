@@ -20,8 +20,8 @@
     description = 'Know your info or the info of a chat members.',
     },
     patterns = {
-      "^[!/]info $,
-      "^([Ii]nfo) $,
+      "^[!/]info $",
+      "^([Ii]nfo) $",
     },
     run = run
   }
