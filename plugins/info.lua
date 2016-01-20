@@ -8,12 +8,12 @@
           end
         else
           local text = 'Name: '..(msg.from.first_name or '')..' '..(msg.from.last_name or '')..'\n'
-                       ..'First name✔️: '..(msg.from.first_name or '')..'\n'
-                       ..'Last name👥: '..(msg.from.last_name or '')..'\n'
-                       ..'User name: @'..(msg.from.username or '')..'\n'
-                       ..'🆔: ' .. msg.from.id
+                       ..'First name️: '..(msg.from.first_name or '')..'\n'
+                       ..'Last name : '..(msg.from.last_name or '')..'\n'
+                       ..'User name : @'..(msg.from.username or '')..'\n'
+                       ..'ID: ' ..'(msg.from.id)'
           local text = text..'\nYou are in group '
-                       ..msg.to.title..' (🆔: '..msg.to.id..')'
+                       ..msg.to.title..' (ID: '..msg.to.id..')'
           return text
         end
   return {
